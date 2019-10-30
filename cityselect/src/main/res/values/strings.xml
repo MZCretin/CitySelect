@@ -3,5 +3,5 @@
     <string name="str_hint_search_city">请输入城市名或拼音</string>
     <string name="str_cancel">取消</string>
     <string name="str_retry_location">重新定位</string>
-    <string name="str_is_location">正在定位...</string>
+    <string name="str_is_location">正在定位</string>
 </resources>

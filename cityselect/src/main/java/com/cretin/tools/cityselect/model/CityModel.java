@@ -1,12 +1,17 @@
 package com.cretin.tools.cityselect.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
 /**
  * @date: on 2019-10-30
  * @author: a112233
  * @email: mxnzp_life@163.com
  * @desc: 用户需要传入的数据
  */
-public class CityModel {
+public class CityModel implements Serializable {
     private String cityName;
     private Object extra;
 
@@ -33,4 +38,5 @@ public class CityModel {
     public void setExtra(Object extra) {
         this.extra = extra;
     }
+
 }

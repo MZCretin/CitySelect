@@ -1,82 +1,41 @@
 package com.cretin.cityselect;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.TextView;
 
-import com.blankj.utilcode.util.ResourceUtils;
-import com.cretin.tools.cityselect.CityResponse;
-import com.cretin.tools.cityselect.callback.OnCitySelectListener;
-import com.cretin.tools.cityselect.callback.OnLocationListener;
 import com.cretin.tools.cityselect.model.CityModel;
-import com.cretin.tools.cityselect.utils.JSONHelper;
-import com.cretin.tools.cityselect.view.CitySelectView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    private CitySelectView citySelectView;
+    public static final int requestCode = 1001;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        citySelectView = findViewById(R.id.city_view);
-
-        List<CityModel> allCitys = new ArrayList<>();
-
-        final String city = ResourceUtils.readAssets2String("city.json");
-        try {
-            CityResponse cityResponse = JSONHelper.parseObject(city, CityResponse.class);
-            List<CityResponse.DataBean> data = cityResponse.getData();
-            for (CityResponse.DataBean item : data) {
-                if (item.getSons() == null) {
-                    allCitys.add(new CityModel(item.getName(), item.getAreaId()));
-                } else {
-                    for (CityResponse.DataBean.SonsBean son : item.getSons()) {
-                        allCitys.add(new CityModel(son.getName(), son.getAreaId()));
-                    }
-                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        List<CityModel> hotCitys = new ArrayList<>();
-        for (int i = 0; i < 11; i++) {
-            hotCitys.add(new CityModel("深圳", "10000000"));
-        }
-
-        //当前城市
-        CityModel currentCity = new CityModel("深圳", "10000000");
-
-        citySelectView.bindData(allCitys, hotCitys, currentCity);
-
-        citySelectView.setOnCitySelectListener(new OnCitySelectListener() {
+        //获取城市
+        findViewById(R.id.tv_select_city).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCitySelect(CityModel cityModel) {
-                Toast.makeText(MainActivity.this, "你点击了：" + cityModel.getCityName() + ":" + cityModel.getExtra().toString(), Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onSelectCancel() {
-                Toast.makeText(MainActivity.this, "你取消了城市选择", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SelectCityActivity.class);
+                startActivityForResult(intent, requestCode);
             }
         });
+    }
 
-        citySelectView.setOnLocationListener(new OnLocationListener() {
-            @Override
-            public void onLocation() {
-                citySelectView.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        citySelectView.reBindCurrentCity(new CityModel("广州", "10000001"));
-                    }
-                }, 2000);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == MainActivity.requestCode) {
+            if (resultCode == RESULT_OK) {
+                CityModel model = (CityModel) data.getSerializableExtra("model");
+                ((TextView) findViewById(R.id.city_result)).setText(
+                        "您已选择城市：" + model.getCityName() + " " + model.getExtra().toString());
             }
-        });
+        }
     }
 }

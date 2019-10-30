@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:focusable="true"
     android:focusableInTouchMode="true"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.cretin.tools.cityselect.view.CitySelectView
-        android:id="@+id/city_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_select_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:text="去选择城市" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/city_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="16dp" />
+
+</LinearLayout>

@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".SelectCityActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="选择城市Demo"
             android:configChanges="keyboardHidden|orientation"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustPan"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
