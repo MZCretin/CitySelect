@@ -1,4 +1,4 @@
-package com.cretin.cityselect;
+package com.cretin.tools.cityselect.utils;
 
 import android.util.Log;
 

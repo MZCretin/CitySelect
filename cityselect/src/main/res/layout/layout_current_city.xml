@@ -18,10 +18,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tv_retry_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:text="重新定位"
+        android:text="@string/str_retry_location"
         android:textColor="#FC8D00"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="@+id/tv_current_city"

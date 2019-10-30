@@ -1,4 +1,4 @@
-package com.cretin.cityselect;
+package com.cretin.tools.cityselect.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,10 +6,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.cretin.tools.cityselect.utils.AppUtils;
 
 public class FastIndexView extends View {
 
@@ -49,11 +50,6 @@ public class FastIndexView extends View {
             //计算绘制字符的Y方向起点
             int y = (int) (cellHeight / 2.0f + textHeight / 2.0f + i
                     * cellHeight);
-//            //绘制选中字符的背景
-//            if (touchIndex == i) {
-//                mPaint.setColor(Color.parseColor("#999DA1"));
-//                canvas.drawCircle(viewWidth / 2, cellHeight * i + cellHeight / 2, cellHeight / 2, mPaint);
-//            }
             mPaint.setColor(/*touchIndex == i ? Color.WHITE : */selectedColor);
             canvas.drawText(text, x, y, mPaint);
         }
@@ -67,12 +63,10 @@ public class FastIndexView extends View {
                 //计算当前触摸的字符索引
                 index = (int) (event.getY() / cellHeight);
                 if (index >= 0 && index < INDEX_NAME.length()) {
-                    if (index != touchIndex) {
-                        if (listener != null) {
-                            listener.onLetterUpdate(INDEX_NAME.substring(index, index + 1));
-                        }
-                        touchIndex = index;
+                    if (listener != null) {
+                        listener.onLetterUpdate(INDEX_NAME.substring(index, index + 1));
                     }
+                    touchIndex = index;
                 }
                 break;
             case MotionEvent.ACTION_MOVE:
@@ -108,20 +102,6 @@ public class FastIndexView extends View {
 
     public void setListener(OnLetterUpdateListener listener) {
         this.listener = listener;
-    }
-
-    /**
-     * 匹配字母
-     *
-     * @param letter
-     */
-    public void matchingLetter(String letter) {
-        for (int i = 0; i < INDEX_NAME.length(); i++) {
-            if (letter.equals(INDEX_NAME.substring(i, i + 1))) {
-                touchIndex = i;
-                invalidate();
-            }
-        }
     }
 
 }

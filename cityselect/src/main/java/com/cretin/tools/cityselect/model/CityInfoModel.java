@@ -1,4 +1,4 @@
-package com.cretin.cityselect;
+package com.cretin.tools.cityselect.model;
 
 /**
  * @date: on 2019-10-29
@@ -12,23 +12,13 @@ public class CityInfoModel {
     public static final int TYPE_HOT = 2;//热门城市
 
     private int type;
-    private String cityName;
-    private String sortId;
-    private String sortName;
-    private Object extra;
-
-    public CityInfoModel(String cityName) {
-        this.cityName = cityName;
-    }
+    private String cityName;//用于显示的城市的名字
+    private String sortId;//用于排序的id 在这里是城市拼音的首字母
+    private String sortName;//用于排序的全拼音 这个是用于后面的排序以及搜索
+    private Object extra;//附加参数 比如 一般来说 城市都有对应的一个id 可以存储在这里
 
     public CityInfoModel() {
-    }
 
-    public CityInfoModel(int type, String cityName, String sortId, String sortName) {
-        this.type = type;
-        this.cityName = cityName;
-        this.sortId = sortId;
-        this.sortName = sortName;
     }
 
     public CityInfoModel(int type, String cityName, String sortId, String sortName, Object extra) {
@@ -77,5 +67,9 @@ public class CityInfoModel {
 
     public void setExtra(Object extra) {
         this.extra = extra;
+    }
+
+    public Object getExtra() {
+        return extra;
     }
 }

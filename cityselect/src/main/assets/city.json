@@ -1,0 +1,2239 @@
+{
+    "data": [
+        {
+            "areaId": "252",
+            "name": "安徽",
+            "sons": [
+                {
+                    "areaId": "3116",
+                    "name": "安庆",
+                    "sons": null
+                },
+                {
+                    "areaId": "3111",
+                    "name": "蚌埠",
+                    "sons": null
+                },
+                {
+                    "areaId": "3122",
+                    "name": "亳州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3118",
+                    "name": "滁州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3123",
+                    "name": "池州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3119",
+                    "name": "阜阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3109",
+                    "name": "合肥",
+                    "sons": null
+                },
+                {
+                    "areaId": "3112",
+                    "name": "淮南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3114",
+                    "name": "淮北",
+                    "sons": null
+                },
+                {
+                    "areaId": "3117",
+                    "name": "黄山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3121",
+                    "name": "六安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3113",
+                    "name": "马鞍山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3115",
+                    "name": "铜陵",
+                    "sons": null
+                },
+                {
+                    "areaId": "3110",
+                    "name": "芜湖",
+                    "sons": null
+                },
+                {
+                    "areaId": "3120",
+                    "name": "宿州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3124",
+                    "name": "宣城",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "274",
+            "name": "澳门",
+            "sons": [
+                {
+                    "areaId": "3420",
+                    "name": "氹仔",
+                    "sons": null
+                },
+                {
+                    "areaId": "3417",
+                    "name": "大堂区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3419",
+                    "name": "风顺堂区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3415",
+                    "name": "花地玛堂区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3421",
+                    "name": "路环",
+                    "sons": null
+                },
+                {
+                    "areaId": "3416",
+                    "name": "圣安多尼堂区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3418",
+                    "name": "望德堂区",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "241",
+            "name": "北京",
+            "sons": null
+        },
+        {
+            "areaId": "253",
+            "name": "福建",
+            "sons": [
+                {
+                    "areaId": "3125",
+                    "name": "福州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3132",
+                    "name": "龙岩",
+                    "sons": null
+                },
+                {
+                    "areaId": "3131",
+                    "name": "南平",
+                    "sons": null
+                },
+                {
+                    "areaId": "3133",
+                    "name": "宁德",
+                    "sons": null
+                },
+                {
+                    "areaId": "3127",
+                    "name": "莆田",
+                    "sons": null
+                },
+                {
+                    "areaId": "3129",
+                    "name": "泉州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3126",
+                    "name": "厦门",
+                    "sons": null
+                },
+                {
+                    "areaId": "3128",
+                    "name": "三明",
+                    "sons": null
+                },
+                {
+                    "areaId": "3130",
+                    "name": "漳州",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "259",
+            "name": "广东",
+            "sons": [
+                {
+                    "areaId": "3229",
+                    "name": "潮州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3227",
+                    "name": "东莞",
+                    "sons": null
+                },
+                {
+                    "areaId": "3216",
+                    "name": "佛山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3211",
+                    "name": "广州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3221",
+                    "name": "惠州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3224",
+                    "name": "河源",
+                    "sons": null
+                },
+                {
+                    "areaId": "3217",
+                    "name": "江门",
+                    "sons": null
+                },
+                {
+                    "areaId": "3230",
+                    "name": "揭阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3219",
+                    "name": "茂名",
+                    "sons": null
+                },
+                {
+                    "areaId": "3222",
+                    "name": "梅州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3226",
+                    "name": "清远",
+                    "sons": null
+                },
+                {
+                    "areaId": "3212",
+                    "name": "韶关",
+                    "sons": null
+                },
+                {
+                    "areaId": "3213",
+                    "name": "深圳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3215",
+                    "name": "汕头",
+                    "sons": null
+                },
+                {
+                    "areaId": "3223",
+                    "name": "汕尾",
+                    "sons": null
+                },
+                {
+                    "areaId": "3225",
+                    "name": "阳江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3231",
+                    "name": "云浮",
+                    "sons": null
+                },
+                {
+                    "areaId": "3214",
+                    "name": "珠海",
+                    "sons": null
+                },
+                {
+                    "areaId": "3218",
+                    "name": "湛江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3220",
+                    "name": "肇庆",
+                    "sons": null
+                },
+                {
+                    "areaId": "3228",
+                    "name": "中山",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "260",
+            "name": "广西",
+            "sons": [
+                {
+                    "areaId": "3236",
+                    "name": "北海",
+                    "sons": null
+                },
+                {
+                    "areaId": "3241",
+                    "name": "百色",
+                    "sons": null
+                },
+                {
+                    "areaId": "3245",
+                    "name": "崇左",
+                    "sons": null
+                },
+                {
+                    "areaId": "3237",
+                    "name": "防城港",
+                    "sons": null
+                },
+                {
+                    "areaId": "3234",
+                    "name": "桂林",
+                    "sons": null
+                },
+                {
+                    "areaId": "3239",
+                    "name": "贵港",
+                    "sons": null
+                },
+                {
+                    "areaId": "3242",
+                    "name": "贺州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3243",
+                    "name": "河池",
+                    "sons": null
+                },
+                {
+                    "areaId": "3233",
+                    "name": "柳州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3244",
+                    "name": "来宾",
+                    "sons": null
+                },
+                {
+                    "areaId": "3232",
+                    "name": "南宁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3238",
+                    "name": "钦州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3235",
+                    "name": "梧州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3240",
+                    "name": "玉林",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "264",
+            "name": "贵州",
+            "sons": [
+                {
+                    "areaId": "3289",
+                    "name": "安顺",
+                    "sons": null
+                },
+                {
+                    "areaId": "3292",
+                    "name": "毕节",
+                    "sons": null
+                },
+                {
+                    "areaId": "3286",
+                    "name": "贵阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3287",
+                    "name": "六盘水",
+                    "sons": null
+                },
+                {
+                    "areaId": "3291",
+                    "name": "黔西南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3293",
+                    "name": "黔东南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3294",
+                    "name": "黔南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3290",
+                    "name": "铜仁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3288",
+                    "name": "遵义",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "268",
+            "name": "甘肃",
+            "sons": [
+                {
+                    "areaId": "3331",
+                    "name": "白银",
+                    "sons": null
+                },
+                {
+                    "areaId": "3338",
+                    "name": "定西",
+                    "sons": null
+                },
+                {
+                    "areaId": "3341",
+                    "name": "甘南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3329",
+                    "name": "嘉峪关",
+                    "sons": null
+                },
+                {
+                    "areaId": "3330",
+                    "name": "金昌",
+                    "sons": null
+                },
+                {
+                    "areaId": "3336",
+                    "name": "酒泉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3328",
+                    "name": "兰州市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3339",
+                    "name": "陇南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3340",
+                    "name": "临夏",
+                    "sons": null
+                },
+                {
+                    "areaId": "3335",
+                    "name": "平凉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3337",
+                    "name": "庆阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3332",
+                    "name": "天水",
+                    "sons": null
+                },
+                {
+                    "areaId": "3333",
+                    "name": "武威",
+                    "sons": null
+                },
+                {
+                    "areaId": "3334",
+                    "name": "张掖",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "243",
+            "name": "河北",
+            "sons": [
+                {
+                    "areaId": "3020",
+                    "name": "保定",
+                    "sons": null
+                },
+                {
+                    "areaId": "3022",
+                    "name": "承德",
+                    "sons": null
+                },
+                {
+                    "areaId": "3023",
+                    "name": "沧州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3018",
+                    "name": "邯郸",
+                    "sons": null
+                },
+                {
+                    "areaId": "3025",
+                    "name": "衡水",
+                    "sons": null
+                },
+                {
+                    "areaId": "3024",
+                    "name": "廊坊",
+                    "sons": null
+                },
+                {
+                    "areaId": "3017",
+                    "name": "秦皇岛",
+                    "sons": null
+                },
+                {
+                    "areaId": "3015",
+                    "name": "石家庄",
+                    "sons": null
+                },
+                {
+                    "areaId": "3016",
+                    "name": "唐山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3019",
+                    "name": "邢台",
+                    "sons": null
+                },
+                {
+                    "areaId": "3021",
+                    "name": "张家口",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "248",
+            "name": "黑龙江",
+            "sons": [
+                {
+                    "areaId": "3077",
+                    "name": "大庆",
+                    "sons": null
+                },
+                {
+                    "areaId": "3084",
+                    "name": "大兴安岭",
+                    "sons": null
+                },
+                {
+                    "areaId": "3072",
+                    "name": "哈尔滨",
+                    "sons": null
+                },
+                {
+                    "areaId": "3075",
+                    "name": "鹤岗",
+                    "sons": null
+                },
+                {
+                    "areaId": "3082",
+                    "name": "黑河",
+                    "sons": null
+                },
+                {
+                    "areaId": "3074",
+                    "name": "鸡西",
+                    "sons": null
+                },
+                {
+                    "areaId": "3079",
+                    "name": "佳木斯",
+                    "sons": null
+                },
+                {
+                    "areaId": "3081",
+                    "name": "牡丹江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3073",
+                    "name": "齐齐哈尔",
+                    "sons": null
+                },
+                {
+                    "areaId": "3080",
+                    "name": "七台河",
+                    "sons": null
+                },
+                {
+                    "areaId": "3076",
+                    "name": "双鸭山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3083",
+                    "name": "绥化",
+                    "sons": null
+                },
+                {
+                    "areaId": "3078",
+                    "name": "伊春",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "256",
+            "name": "河南",
+            "sons": [
+                {
+                    "areaId": "3166",
+                    "name": "安阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3167",
+                    "name": "鹤壁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3169",
+                    "name": "焦作",
+                    "sons": null
+                },
+                {
+                    "areaId": "3179",
+                    "name": "济源",
+                    "sons": null
+                },
+                {
+                    "areaId": "3163",
+                    "name": "开封",
+                    "sons": null
+                },
+                {
+                    "areaId": "3164",
+                    "name": "洛阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3172",
+                    "name": "漯河",
+                    "sons": null
+                },
+                {
+                    "areaId": "3174",
+                    "name": "南阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3165",
+                    "name": "平顶山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3170",
+                    "name": "濮阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3173",
+                    "name": "三门峡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3175",
+                    "name": "商丘",
+                    "sons": null
+                },
+                {
+                    "areaId": "3168",
+                    "name": "新乡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3171",
+                    "name": "许昌",
+                    "sons": null
+                },
+                {
+                    "areaId": "3176",
+                    "name": "信阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3162",
+                    "name": "郑州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3177",
+                    "name": "周口",
+                    "sons": null
+                },
+                {
+                    "areaId": "3178",
+                    "name": "驻马店",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "257",
+            "name": "湖北",
+            "sons": [
+                {
+                    "areaId": "3185",
+                    "name": "鄂州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3192",
+                    "name": "恩施",
+                    "sons": null
+                },
+                {
+                    "areaId": "3181",
+                    "name": "黄石",
+                    "sons": null
+                },
+                {
+                    "areaId": "3189",
+                    "name": "黄冈",
+                    "sons": null
+                },
+                {
+                    "areaId": "3186",
+                    "name": "荆门",
+                    "sons": null
+                },
+                {
+                    "areaId": "3188",
+                    "name": "荆州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3194",
+                    "name": "潜江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3182",
+                    "name": "十堰",
+                    "sons": null
+                },
+                {
+                    "areaId": "3191",
+                    "name": "随州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3196",
+                    "name": "神农架",
+                    "sons": null
+                },
+                {
+                    "areaId": "3195",
+                    "name": "天门",
+                    "sons": null
+                },
+                {
+                    "areaId": "3180",
+                    "name": "武汉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3184",
+                    "name": "襄阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3187",
+                    "name": "孝感",
+                    "sons": null
+                },
+                {
+                    "areaId": "3190",
+                    "name": "咸宁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3193",
+                    "name": "仙桃",
+                    "sons": null
+                },
+                {
+                    "areaId": "3183",
+                    "name": "宜昌",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "258",
+            "name": "湖南",
+            "sons": [
+                {
+                    "areaId": "3197",
+                    "name": "长沙",
+                    "sons": null
+                },
+                {
+                    "areaId": "3203",
+                    "name": "常德",
+                    "sons": null
+                },
+                {
+                    "areaId": "3206",
+                    "name": "郴州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3200",
+                    "name": "衡阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3208",
+                    "name": "怀化",
+                    "sons": null
+                },
+                {
+                    "areaId": "3209",
+                    "name": "娄底",
+                    "sons": null
+                },
+                {
+                    "areaId": "3201",
+                    "name": "邵阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3199",
+                    "name": "湘潭",
+                    "sons": null
+                },
+                {
+                    "areaId": "3210",
+                    "name": "湘西",
+                    "sons": null
+                },
+                {
+                    "areaId": "3202",
+                    "name": "岳阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3205",
+                    "name": "益阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3207",
+                    "name": "永州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3198",
+                    "name": "株洲",
+                    "sons": null
+                },
+                {
+                    "areaId": "3204",
+                    "name": "张家界",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "261",
+            "name": "海南",
+            "sons": [
+                {
+                    "areaId": "3259",
+                    "name": "白沙",
+                    "sons": null
+                },
+                {
+                    "areaId": "3263",
+                    "name": "保亭",
+                    "sons": null
+                },
+                {
+                    "areaId": "3257",
+                    "name": "澄迈",
+                    "sons": null
+                },
+                {
+                    "areaId": "3260",
+                    "name": "昌江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3251",
+                    "name": "儋州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3254",
+                    "name": "东方",
+                    "sons": null
+                },
+                {
+                    "areaId": "3255",
+                    "name": "定安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3246",
+                    "name": "海口",
+                    "sons": null
+                },
+                {
+                    "areaId": "3258",
+                    "name": "临高",
+                    "sons": null
+                },
+                {
+                    "areaId": "3261",
+                    "name": "乐东",
+                    "sons": null
+                },
+                {
+                    "areaId": "3262",
+                    "name": "陵水",
+                    "sons": null
+                },
+                {
+                    "areaId": "3250",
+                    "name": "琼海",
+                    "sons": null
+                },
+                {
+                    "areaId": "3264",
+                    "name": "琼中",
+                    "sons": null
+                },
+                {
+                    "areaId": "3247",
+                    "name": "三亚",
+                    "sons": null
+                },
+                {
+                    "areaId": "3248",
+                    "name": "三沙",
+                    "sons": null
+                },
+                {
+                    "areaId": "3256",
+                    "name": "屯昌",
+                    "sons": null
+                },
+                {
+                    "areaId": "3249",
+                    "name": "五指山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3252",
+                    "name": "文昌",
+                    "sons": null
+                },
+                {
+                    "areaId": "3253",
+                    "name": "万宁",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "247",
+            "name": "吉林",
+            "sons": [
+                {
+                    "areaId": "3068",
+                    "name": "白山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3070",
+                    "name": "白城",
+                    "sons": null
+                },
+                {
+                    "areaId": "3063",
+                    "name": "长春",
+                    "sons": null
+                },
+                {
+                    "areaId": "3064",
+                    "name": "吉林",
+                    "sons": null
+                },
+                {
+                    "areaId": "3066",
+                    "name": "辽源",
+                    "sons": null
+                },
+                {
+                    "areaId": "3065",
+                    "name": "四平",
+                    "sons": null
+                },
+                {
+                    "areaId": "3069",
+                    "name": "松原",
+                    "sons": null
+                },
+                {
+                    "areaId": "3067",
+                    "name": "通化",
+                    "sons": null
+                },
+                {
+                    "areaId": "3071",
+                    "name": "延边",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "250",
+            "name": "江苏",
+            "sons": [
+                {
+                    "areaId": "3088",
+                    "name": "常州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3092",
+                    "name": "淮安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3091",
+                    "name": "连云港",
+                    "sons": null
+                },
+                {
+                    "areaId": "3085",
+                    "name": "南京",
+                    "sons": null
+                },
+                {
+                    "areaId": "3090",
+                    "name": "南通",
+                    "sons": null
+                },
+                {
+                    "areaId": "3089",
+                    "name": "苏州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3096",
+                    "name": "泰州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3086",
+                    "name": "无锡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3087",
+                    "name": "徐州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3097",
+                    "name": "宿迁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3093",
+                    "name": "盐城",
+                    "sons": null
+                },
+                {
+                    "areaId": "3094",
+                    "name": "扬州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3095",
+                    "name": "镇江",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "254",
+            "name": "江西",
+            "sons": [
+                {
+                    "areaId": "3143",
+                    "name": "抚州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3140",
+                    "name": "赣州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3135",
+                    "name": "景德镇",
+                    "sons": null
+                },
+                {
+                    "areaId": "3137",
+                    "name": "九江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3141",
+                    "name": "吉安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3134",
+                    "name": "南昌",
+                    "sons": null
+                },
+                {
+                    "areaId": "3136",
+                    "name": "萍乡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3144",
+                    "name": "上饶",
+                    "sons": null
+                },
+                {
+                    "areaId": "3138",
+                    "name": "新余",
+                    "sons": null
+                },
+                {
+                    "areaId": "3139",
+                    "name": "鹰潭",
+                    "sons": null
+                },
+                {
+                    "areaId": "3142",
+                    "name": "宜春",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "246",
+            "name": "辽宁",
+            "sons": [
+                {
+                    "areaId": "3051",
+                    "name": "鞍山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3053",
+                    "name": "本溪",
+                    "sons": null
+                },
+                {
+                    "areaId": "3061",
+                    "name": "朝阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3050",
+                    "name": "大连",
+                    "sons": null
+                },
+                {
+                    "areaId": "3054",
+                    "name": "丹东",
+                    "sons": null
+                },
+                {
+                    "areaId": "3052",
+                    "name": "抚顺",
+                    "sons": null
+                },
+                {
+                    "areaId": "3057",
+                    "name": "阜新",
+                    "sons": null
+                },
+                {
+                    "areaId": "3062",
+                    "name": "葫芦岛",
+                    "sons": null
+                },
+                {
+                    "areaId": "3055",
+                    "name": "锦州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3058",
+                    "name": "辽阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3059",
+                    "name": "盘锦",
+                    "sons": null
+                },
+                {
+                    "areaId": "3049",
+                    "name": "沈阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3060",
+                    "name": "铁岭",
+                    "sons": null
+                },
+                {
+                    "areaId": "3056",
+                    "name": "营口",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "245",
+            "name": "内蒙古",
+            "sons": [
+                {
+                    "areaId": "3038",
+                    "name": "包头",
+                    "sons": null
+                },
+                {
+                    "areaId": "3044",
+                    "name": "巴彦淖尔",
+                    "sons": null
+                },
+                {
+                    "areaId": "3040",
+                    "name": "赤峰",
+                    "sons": null
+                },
+                {
+                    "areaId": "3042",
+                    "name": "鄂尔多斯",
+                    "sons": null
+                },
+                {
+                    "areaId": "3048",
+                    "name": "阿拉善",
+                    "sons": null
+                },
+                {
+                    "areaId": "3037",
+                    "name": "呼和浩特",
+                    "sons": null
+                },
+                {
+                    "areaId": "3043",
+                    "name": "呼伦贝尔",
+                    "sons": null
+                },
+                {
+                    "areaId": "3041",
+                    "name": "通辽",
+                    "sons": null
+                },
+                {
+                    "areaId": "3039",
+                    "name": "乌海",
+                    "sons": null
+                },
+                {
+                    "areaId": "3045",
+                    "name": "乌兰察布",
+                    "sons": null
+                },
+                {
+                    "areaId": "3046",
+                    "name": "兴安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3047",
+                    "name": "锡林郭勒",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "270",
+            "name": "宁夏",
+            "sons": [
+                {
+                    "areaId": "3353",
+                    "name": "固原",
+                    "sons": null
+                },
+                {
+                    "areaId": "3351",
+                    "name": "石嘴山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3352",
+                    "name": "吴忠",
+                    "sons": null
+                },
+                {
+                    "areaId": "3350",
+                    "name": "银川",
+                    "sons": null
+                },
+                {
+                    "areaId": "3354",
+                    "name": "中卫",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "269",
+            "name": "青海",
+            "sons": [
+                {
+                    "areaId": "3347",
+                    "name": "果洛",
+                    "sons": null
+                },
+                {
+                    "areaId": "3343",
+                    "name": "海东",
+                    "sons": null
+                },
+                {
+                    "areaId": "3344",
+                    "name": "海北",
+                    "sons": null
+                },
+                {
+                    "areaId": "3345",
+                    "name": "黄南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3346",
+                    "name": "海南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3349",
+                    "name": "海西",
+                    "sons": null
+                },
+                {
+                    "areaId": "3342",
+                    "name": "西宁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3348",
+                    "name": "玉树",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "244",
+            "name": "山西",
+            "sons": [
+                {
+                    "areaId": "3029",
+                    "name": "长治",
+                    "sons": null
+                },
+                {
+                    "areaId": "3027",
+                    "name": "大同",
+                    "sons": null
+                },
+                {
+                    "areaId": "3030",
+                    "name": "晋城",
+                    "sons": null
+                },
+                {
+                    "areaId": "3032",
+                    "name": "晋中",
+                    "sons": null
+                },
+                {
+                    "areaId": "3035",
+                    "name": "临汾",
+                    "sons": null
+                },
+                {
+                    "areaId": "3036",
+                    "name": "吕梁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3031",
+                    "name": "朔州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3026",
+                    "name": "太原",
+                    "sons": null
+                },
+                {
+                    "areaId": "3034",
+                    "name": "忻州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3028",
+                    "name": "阳泉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3033",
+                    "name": "运城",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "249",
+            "name": "上海",
+            "sons": null
+        },
+        {
+            "areaId": "255",
+            "name": "山东",
+            "sons": [
+                {
+                    "areaId": "3160",
+                    "name": "滨州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3149",
+                    "name": "东营",
+                    "sons": null
+                },
+                {
+                    "areaId": "3158",
+                    "name": "德州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3161",
+                    "name": "菏泽",
+                    "sons": null
+                },
+                {
+                    "areaId": "3145",
+                    "name": "济南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3152",
+                    "name": "济宁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3156",
+                    "name": "莱芜",
+                    "sons": null
+                },
+                {
+                    "areaId": "3157",
+                    "name": "临沂",
+                    "sons": null
+                },
+                {
+                    "areaId": "3159",
+                    "name": "聊城",
+                    "sons": null
+                },
+                {
+                    "areaId": "3146",
+                    "name": "青岛",
+                    "sons": null
+                },
+                {
+                    "areaId": "3155",
+                    "name": "日照",
+                    "sons": null
+                },
+                {
+                    "areaId": "3153",
+                    "name": "泰安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3151",
+                    "name": "潍坊",
+                    "sons": null
+                },
+                {
+                    "areaId": "3154",
+                    "name": "威海",
+                    "sons": null
+                },
+                {
+                    "areaId": "3150",
+                    "name": "烟台",
+                    "sons": null
+                },
+                {
+                    "areaId": "3147",
+                    "name": "淄博",
+                    "sons": null
+                },
+                {
+                    "areaId": "3148",
+                    "name": "枣庄",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "263",
+            "name": "四川",
+            "sons": [
+                {
+                    "areaId": "3281",
+                    "name": "巴中",
+                    "sons": null
+                },
+                {
+                    "areaId": "3265",
+                    "name": "成都",
+                    "sons": null
+                },
+                {
+                    "areaId": "3269",
+                    "name": "德阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3279",
+                    "name": "达州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3283",
+                    "name": "阿坝",
+                    "sons": null
+                },
+                {
+                    "areaId": "3271",
+                    "name": "广元",
+                    "sons": null
+                },
+                {
+                    "areaId": "3278",
+                    "name": "广安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3284",
+                    "name": "甘孜",
+                    "sons": null
+                },
+                {
+                    "areaId": "3268",
+                    "name": "泸州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3274",
+                    "name": "乐山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3285",
+                    "name": "凉山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3270",
+                    "name": "绵阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3276",
+                    "name": "眉山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3273",
+                    "name": "内江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3275",
+                    "name": "南充",
+                    "sons": null
+                },
+                {
+                    "areaId": "3267",
+                    "name": "攀枝花",
+                    "sons": null
+                },
+                {
+                    "areaId": "3272",
+                    "name": "遂宁",
+                    "sons": null
+                },
+                {
+                    "areaId": "3277",
+                    "name": "宜宾",
+                    "sons": null
+                },
+                {
+                    "areaId": "3280",
+                    "name": "雅安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3266",
+                    "name": "自贡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3282",
+                    "name": "资阳",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "267",
+            "name": "陕西",
+            "sons": [
+                {
+                    "areaId": "3326",
+                    "name": "安康",
+                    "sons": null
+                },
+                {
+                    "areaId": "3320",
+                    "name": "宝鸡",
+                    "sons": null
+                },
+                {
+                    "areaId": "3324",
+                    "name": "汉中",
+                    "sons": null
+                },
+                {
+                    "areaId": "3327",
+                    "name": "商洛",
+                    "sons": null
+                },
+                {
+                    "areaId": "3319",
+                    "name": "铜川",
+                    "sons": null
+                },
+                {
+                    "areaId": "3322",
+                    "name": "渭南",
+                    "sons": null
+                },
+                {
+                    "areaId": "3318",
+                    "name": "西安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3321",
+                    "name": "咸阳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3323",
+                    "name": "延安",
+                    "sons": null
+                },
+                {
+                    "areaId": "3325",
+                    "name": "榆林",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "242",
+            "name": "天津",
+            "sons": null
+        },
+        {
+            "areaId": "272",
+            "name": "台湾",
+            "sons": [
+                {
+                    "areaId": "3375",
+                    "name": "高雄市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3392",
+                    "name": "高雄县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3395",
+                    "name": "花莲县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3376",
+                    "name": "基隆市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3380",
+                    "name": "嘉义市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3390",
+                    "name": "嘉义县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3385",
+                    "name": "苗栗县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3388",
+                    "name": "南投县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3393",
+                    "name": "屏东县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3396",
+                    "name": "澎湖县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3374",
+                    "name": "台北市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3377",
+                    "name": "台中市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3378",
+                    "name": "台南市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3381",
+                    "name": "台北县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3383",
+                    "name": "桃园县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3386",
+                    "name": "台中县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3391",
+                    "name": "台南县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3394",
+                    "name": "台东县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3379",
+                    "name": "新竹市",
+                    "sons": null
+                },
+                {
+                    "areaId": "3384",
+                    "name": "新竹县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3382",
+                    "name": "宜兰县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3389",
+                    "name": "云林县",
+                    "sons": null
+                },
+                {
+                    "areaId": "3387",
+                    "name": "彰化县",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "266",
+            "name": "西藏",
+            "sons": [
+                {
+                    "areaId": "3312",
+                    "name": "昌都",
+                    "sons": null
+                },
+                {
+                    "areaId": "3316",
+                    "name": "阿里",
+                    "sons": null
+                },
+                {
+                    "areaId": "3311",
+                    "name": "拉萨",
+                    "sons": null
+                },
+                {
+                    "areaId": "3317",
+                    "name": "林芝",
+                    "sons": null
+                },
+                {
+                    "areaId": "3315",
+                    "name": "那曲",
+                    "sons": null
+                },
+                {
+                    "areaId": "3314",
+                    "name": "日喀则",
+                    "sons": null
+                },
+                {
+                    "areaId": "3313",
+                    "name": "山南",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "271",
+            "name": "新疆",
+            "sons": [
+                {
+                    "areaId": "3360",
+                    "name": "博尔塔拉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3361",
+                    "name": "巴音郭楞",
+                    "sons": null
+                },
+                {
+                    "areaId": "3373",
+                    "name": "北屯",
+                    "sons": null
+                },
+                {
+                    "areaId": "3359",
+                    "name": "昌吉",
+                    "sons": null
+                },
+                {
+                    "areaId": "3362",
+                    "name": "阿克苏",
+                    "sons": null
+                },
+                {
+                    "areaId": "3368",
+                    "name": "阿勒泰",
+                    "sons": null
+                },
+                {
+                    "areaId": "3370",
+                    "name": "阿拉尔",
+                    "sons": null
+                },
+                {
+                    "areaId": "3358",
+                    "name": "哈密",
+                    "sons": null
+                },
+                {
+                    "areaId": "3365",
+                    "name": "和田",
+                    "sons": null
+                },
+                {
+                    "areaId": "3356",
+                    "name": "克拉玛依",
+                    "sons": null
+                },
+                {
+                    "areaId": "3363",
+                    "name": "克孜勒苏",
+                    "sons": null
+                },
+                {
+                    "areaId": "3364",
+                    "name": "喀什",
+                    "sons": null
+                },
+                {
+                    "areaId": "3369",
+                    "name": "石河子",
+                    "sons": null
+                },
+                {
+                    "areaId": "3357",
+                    "name": "吐鲁番",
+                    "sons": null
+                },
+                {
+                    "areaId": "3367",
+                    "name": "塔城",
+                    "sons": null
+                },
+                {
+                    "areaId": "3371",
+                    "name": "图木舒克",
+                    "sons": null
+                },
+                {
+                    "areaId": "3355",
+                    "name": "乌鲁木齐",
+                    "sons": null
+                },
+                {
+                    "areaId": "3372",
+                    "name": "五家渠",
+                    "sons": null
+                },
+                {
+                    "areaId": "3366",
+                    "name": "伊犁",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "273",
+            "name": "香港",
+            "sons": [
+                {
+                    "areaId": "3408",
+                    "name": "北区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3398",
+                    "name": "东区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3412",
+                    "name": "大埔区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3400",
+                    "name": "观塘区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3403",
+                    "name": "黄大仙区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3399",
+                    "name": "九龙城区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3407",
+                    "name": "葵青区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3406",
+                    "name": "离岛区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3401",
+                    "name": "南区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3413",
+                    "name": "荃湾区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3402",
+                    "name": "深水埗区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3410",
+                    "name": "沙田区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3411",
+                    "name": "屯门区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3404",
+                    "name": "湾仔区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3409",
+                    "name": "西贡区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3405",
+                    "name": "油尖旺区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3414",
+                    "name": "元朗区",
+                    "sons": null
+                },
+                {
+                    "areaId": "3397",
+                    "name": "中西区",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "265",
+            "name": "云南",
+            "sons": [
+                {
+                    "areaId": "3298",
+                    "name": "保山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3303",
+                    "name": "楚雄",
+                    "sons": null
+                },
+                {
+                    "areaId": "3307",
+                    "name": "大理",
+                    "sons": null
+                },
+                {
+                    "areaId": "3308",
+                    "name": "德宏",
+                    "sons": null
+                },
+                {
+                    "areaId": "3310",
+                    "name": "迪庆",
+                    "sons": null
+                },
+                {
+                    "areaId": "3304",
+                    "name": "红河",
+                    "sons": null
+                },
+                {
+                    "areaId": "3295",
+                    "name": "昆明",
+                    "sons": null
+                },
+                {
+                    "areaId": "3300",
+                    "name": "丽江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3302",
+                    "name": "临沧",
+                    "sons": null
+                },
+                {
+                    "areaId": "3309",
+                    "name": "怒江",
+                    "sons": null
+                },
+                {
+                    "areaId": "3301",
+                    "name": "普洱",
+                    "sons": null
+                },
+                {
+                    "areaId": "3296",
+                    "name": "曲靖",
+                    "sons": null
+                },
+                {
+                    "areaId": "3305",
+                    "name": "文山",
+                    "sons": null
+                },
+                {
+                    "areaId": "3306",
+                    "name": "西双版纳",
+                    "sons": null
+                },
+                {
+                    "areaId": "3297",
+                    "name": "玉溪",
+                    "sons": null
+                },
+                {
+                    "areaId": "3299",
+                    "name": "昭通",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "251",
+            "name": "浙江",
+            "sons": [
+                {
+                    "areaId": "3098",
+                    "name": "杭州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3102",
+                    "name": "湖州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3101",
+                    "name": "嘉兴",
+                    "sons": null
+                },
+                {
+                    "areaId": "3104",
+                    "name": "金华",
+                    "sons": null
+                },
+                {
+                    "areaId": "3108",
+                    "name": "丽水",
+                    "sons": null
+                },
+                {
+                    "areaId": "3099",
+                    "name": "宁波",
+                    "sons": null
+                },
+                {
+                    "areaId": "3105",
+                    "name": "衢州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3103",
+                    "name": "绍兴",
+                    "sons": null
+                },
+                {
+                    "areaId": "3107",
+                    "name": "台州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3100",
+                    "name": "温州",
+                    "sons": null
+                },
+                {
+                    "areaId": "3106",
+                    "name": "舟山",
+                    "sons": null
+                }
+            ]
+        },
+        {
+            "areaId": "262",
+            "name": "重庆",
+            "sons": null
+        }
+    ]
+}
