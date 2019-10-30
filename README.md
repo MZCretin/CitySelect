@@ -26,7 +26,7 @@
 
 ### 效果预览
 
-<div style="background:#e3e3e3; color:#FFF" align=center ><img width="150" height="300" src="./pic/111.jpg"/><img width="150" height="300" src="./pic/222.jpg"/> <img width="150" height="300" src="./pic/333.jpg"/></div>
+<div style="background:#e3e3e3; color:#FFF" align=center ><img width="250" height="500" src="./pic/111.jpg"/><img width="250" height="500" src="./pic/222.jpg"/> <img width="250" height="500" src="./pic/333.jpg"/></div>
 
 ### 使用方式
 
