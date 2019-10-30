@@ -34,7 +34,7 @@ public class FastIndexView extends View {
         mPaint.setAntiAlias(true);
         //获取文字被选中的颜色
 //        selectedColor = ContextCompat.getColor(context, );
-        selectedColor = Color.parseColor("#ff0000");
+        selectedColor = Color.parseColor("#999DA1");
     }
 
     @Override
@@ -49,12 +49,12 @@ public class FastIndexView extends View {
             //计算绘制字符的Y方向起点
             int y = (int) (cellHeight / 2.0f + textHeight / 2.0f + i
                     * cellHeight);
-            //绘制选中字符的背景
-            if (touchIndex == i) {
-                mPaint.setColor(Color.RED);
-                canvas.drawCircle(viewWidth / 2, cellHeight * i + cellHeight / 2, cellHeight / 2, mPaint);
-            }
-            mPaint.setColor(touchIndex == i ? Color.WHITE : selectedColor);
+//            //绘制选中字符的背景
+//            if (touchIndex == i) {
+//                mPaint.setColor(Color.parseColor("#999DA1"));
+//                canvas.drawCircle(viewWidth / 2, cellHeight * i + cellHeight / 2, cellHeight / 2, mPaint);
+//            }
+            mPaint.setColor(/*touchIndex == i ? Color.WHITE : */selectedColor);
             canvas.drawText(text, x, y, mPaint);
         }
     }

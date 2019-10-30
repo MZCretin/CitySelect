@@ -16,7 +16,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/bg_search"
-        android:drawableLeft="@mipmap/btn_search02"
+        android:drawableLeft="@mipmap/search_view"
         android:drawablePadding="5dp"
         android:hint="请输入城市名或拼音"
         android:paddingLeft="14dp"
@@ -53,13 +53,29 @@
     <com.cretin.cityselect.FastIndexView
         android:id="@+id/fastIndexView"
         android:layout_width="25dp"
-        app:layout_constraintHeight_percent="0.7"
         android:layout_height="0dp"
         android:layout_marginTop="15dp"
-        android:layout_marginRight="8dp"
+        android:paddingRight="5dp"
         android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.7"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/recyclerView" />
+        app:layout_constraintTop_toBottomOf="@+id/ed_search" />
 
+    <TextView
+        android:id="@+id/tv_index"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_index_bg"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#ffffff"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.25" />
 </android.support.constraint.ConstraintLayout>

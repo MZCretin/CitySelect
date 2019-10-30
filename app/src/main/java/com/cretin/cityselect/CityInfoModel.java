@@ -7,11 +7,19 @@ package com.cretin.cityselect;
  * @desc: 添加描述
  */
 public class CityInfoModel {
+    public static final int TYPE_NORMAL = 0;
+    public static final int TYPE_CURRENT = 1;//当前城市
+    public static final int TYPE_HOT = 2;//热门城市
+
     private int type;
     private String cityName;
     private String sortId;
     private String sortName;
     private Object extra;
+
+    public CityInfoModel(String cityName) {
+        this.cityName = cityName;
+    }
 
     public CityInfoModel() {
     }
