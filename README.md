@@ -13,16 +13,20 @@
 
 ### 优势
 
-+ **包含当前定位城市，热门城市已经城市列表的展示**
-+ **点击重新定位可回传给调用者做定位处理**
++ **包含当前定位城市，热门城市以及城市列表的展示**
++ **点击重新定位可回调给调用者做定位处理**
 + **城市列表按照首字母A~Z排序，字母索引悬浮**
-+ **右侧含有快速索引工具条，点击所以快速进行列表定位**
-+ **包含城市搜索功能，包含汉字搜索，拼音搜索以及拼音首字母搜索（这个是别的不支持的）**
-+ **使用简单，设置数据已经各种回调监听即可**
++ **右侧含有快速索引工具条，点击索引快速进行列表定位**
++ **包含城市搜索功能，包含汉字搜索，拼音搜索以及拼音首字母搜索（这个是别人不支持的）**
++ **使用简单，设置数据以及各种回调监听即可**
 
 ### demo下载
 
 [Demo下载](https://raw.githubusercontent.com/MZCretin/CitySelect/master/pic/demo.apk)
+
+扫描二维码下载：
+
+<img src="./pic/erweima.png"/>
 
 ### 效果预览
 
@@ -66,11 +70,11 @@
 
   ```java
       //设置所有城市数据
-  	final List<CityModel> allCitys = new ArrayList<>();
-  	allCitys.add(new CityModel("深圳","10000000");
-  	allCitys.add(new CityModel("深圳","10000000");
-  	allCitys.add(new CityModel("深圳","10000000");
-  	allCitys.add(new CityModel("深圳","10000000");
+  	  final List<CityModel> allCitys = new ArrayList<>();
+  	  allCitys.add(new CityModel("深圳","10000000");
+  	  allCitys.add(new CityModel("深圳","10000000");
+  	  allCitys.add(new CityModel("深圳","10000000");
+  	  allCitys.add(new CityModel("深圳","10000000");
       ...
                   
       //设置热门城市列表 这都是瞎写的 哈哈哈
