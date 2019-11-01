@@ -10,6 +10,8 @@
 
 + [App内部自动更新-AutoUpdateProject](https://github.com/MZCretin/AutoUpdateProject)
 + [选择城市-CitySelect](https://github.com/MZCretin/CitySelect)
++ [扫描二维码条形码控件-ScanCode](https://github.com/MZCretin/CitySeScanCode)
+
 
 ### 优势
 
