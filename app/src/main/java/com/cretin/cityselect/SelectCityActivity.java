@@ -82,7 +82,7 @@ public class SelectCityActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表
+                        //绑定数据到视图 需要 所有城市列表（必传） 热门城市列表（选填） 和 当前城市列表（选填）
                         citySelectView.bindData(allCitys, hotCitys, currentCity);
                     }
                 });

@@ -240,12 +240,12 @@ public class CitySelectView extends ConstraintLayout {
                 }
             });
 
-            List<CityInfoModel> hotList = new ArrayList<>();
-            for (CityModel cityModel : hotCity) {
-                hotList.add(new CityInfoModel(0, cityModel.getCityName(), "", "", cityModel.getExtra()));
-            }
-
             if (hotCity != null) {
+                List<CityInfoModel> hotList = new ArrayList<>();
+                for (CityModel cityModel : hotCity) {
+                    hotList.add(new CityInfoModel(0, cityModel.getCityName(), "", "", cityModel.getExtra()));
+                }
+
                 mainAdapter.bindHotCity(hotList);
                 cacheList.add(0, new CityInfoModel(CityInfoModel.TYPE_HOT, "", "#", "热门城市", "hot"));
             }
