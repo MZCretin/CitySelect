@@ -12,6 +12,7 @@
 + [选择城市-CitySelect](https://github.com/MZCretin/CitySelect)
 + [扫描二维码条形码控件-ScanCode](https://github.com/MZCretin/CitySeScanCode)
 + [一键打开WebView件-WebViewUtils](https://github.com/MZCretin/WebViewUtils)
++ [简约动态权限申请库-FanPermission](https://github.com/MZCretin/FanPermission)
 
 
 ### 优势
@@ -34,6 +35,11 @@
 ### 效果预览
 
 <div style="background:#e3e3e3; color:#FFF" align=center ><img width="250" height="500" src="./pic/111.jpg"/><img width="250" height="500" src="./pic/222.jpg"/> <img width="250" height="500" src="./pic/333.jpg"/></div>
+
+### 更新记录
+
++ v1.0.3
+    + 新增设置搜索框的文案提示
 
 ### 使用方式
 
@@ -94,6 +100,9 @@
   
       //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表 其中 所有城市列表是必传的 热门城市和当前城市是选填的 不传就不会显示对应的视图
       citySelectView.bindData(allCitys, hotCitys, currentCity);
+
+      //设置搜索框的文案提示
+      citySelectView.setSearchTips("请输入城市名称或者拼音");
                               
       //设置城市选择之后的事件监听
       citySelectView.setOnCitySelectListener(new OnCitySelectListener() {

@@ -43,6 +43,9 @@ public class SelectCityActivity extends AppCompatActivity {
 
         citySelectView = findViewById(R.id.city_view);
 
+        //设置搜索框的文案提示
+        citySelectView.setSearchTips("请输入城市名称或者拼音");
+
         //拉取大数据还是要在子线程做的 我这是图简单 你别这样玩啊
         new Thread() {
             @Override
