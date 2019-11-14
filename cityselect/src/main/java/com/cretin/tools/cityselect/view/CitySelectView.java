@@ -217,7 +217,7 @@ public class CitySelectView extends ConstraintLayout {
 
     //设置搜索输入框的提示文案
     public void setSearchTips(String tips) {
-        edSearch.setText(tips);
+        edSearch.setHint(tips);
     }
 
     /**
