@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_select_city).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SelectCityActivity.class);
+                Intent intent = new Intent(MainActivity.this, SelfSelectCityActivity.class);
                 startActivityForResult(intent, requestCode);
             }
         });

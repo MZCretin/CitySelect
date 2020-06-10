@@ -241,9 +241,10 @@ public class CitySelectView extends ConstraintLayout {
             });
 
             List<CityInfoModel> hotList = new ArrayList<>();
-            for (CityModel cityModel : hotCity) {
-                hotList.add(new CityInfoModel(0, cityModel.getCityName(), "", "", cityModel.getExtra()));
-            }
+            if (hotCity != null)
+                for (CityModel cityModel : hotCity) {
+                    hotList.add(new CityInfoModel(0, cityModel.getCityName(), "", "", cityModel.getExtra()));
+                }
 
             if (hotCity != null) {
                 mainAdapter.bindHotCity(hotList);

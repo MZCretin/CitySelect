@@ -19,7 +19,7 @@ import com.cretin.tools.cityselect.view.CitySelectView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelectCityActivity extends AppCompatActivity {
+public class SelfSelectCityActivity extends AppCompatActivity {
 
     private CitySelectView citySelectView;
 
@@ -83,7 +83,7 @@ public class SelectCityActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表
-                        citySelectView.bindData(allCitys, hotCitys, currentCity);
+                        citySelectView.bindData(allCitys, null, null);
                     }
                 });
             }
@@ -94,7 +94,7 @@ public class SelectCityActivity extends AppCompatActivity {
         citySelectView.setOnCitySelectListener(new OnCitySelectListener() {
             @Override
             public void onCitySelect(CityModel cityModel) {
-                Toast.makeText(SelectCityActivity.this, "你点击了：" + cityModel.getCityName() + ":" + cityModel.getExtra().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(SelfSelectCityActivity.this, "你点击了：" + cityModel.getCityName() + ":" + cityModel.getExtra().toString(), Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent();
                 intent.putExtra("model", cityModel);
@@ -105,7 +105,7 @@ public class SelectCityActivity extends AppCompatActivity {
 
             @Override
             public void onSelectCancel() {
-                Toast.makeText(SelectCityActivity.this, "你取消了城市选择", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SelfSelectCityActivity.this, "你取消了城市选择", Toast.LENGTH_SHORT).show();
 
                 finish();
             }

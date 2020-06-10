@@ -85,7 +85,8 @@
       //设置当前城市数据
       final CityModel currentCity = new CityModel("深圳", "10000000");
   
-      //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表
+      //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表 
+      //allCitys是城市列表 必传 hotCitys是热门城市 不传就不显示 currentCity 当前定位城市 不传就不显示
       citySelectView.bindData(allCitys, hotCitys, currentCity);
                               
       //设置城市选择之后的事件监听
