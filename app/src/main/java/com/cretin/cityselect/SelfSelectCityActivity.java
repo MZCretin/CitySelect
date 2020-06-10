@@ -1,5 +1,6 @@
 package com.cretin.cityselect;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -21,11 +22,20 @@ import java.util.List;
 
 public class SelfSelectCityActivity extends AppCompatActivity {
 
+    public static void start(Context context, int type) {
+        Intent intent = new Intent(context, SelfSelectCityActivity.class);
+        intent.putExtra("type", type);
+        context.startActivity(intent);
+    }
+
     private CitySelectView citySelectView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //0 所有 1 热门城市 2 当前城市 3 仅列表
+        final int type = getIntent().getIntExtra("type", 0);
 
         //隐藏actionBar 好看点
         getSupportActionBar().hide();
@@ -42,6 +52,9 @@ public class SelfSelectCityActivity extends AppCompatActivity {
         setContentView(R.layout.activity_select_city);
 
         citySelectView = findViewById(R.id.city_view);
+
+        //设置搜索框的文案提示
+        citySelectView.setSearchTips("请输入城市名称或者拼音");
 
         //拉取大数据还是要在子线程做的 我这是图简单 你别这样玩啊
         new Thread() {
@@ -82,8 +95,16 @@ public class SelfSelectCityActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        //绑定数据到视图 需要 所有城市列表 热门城市列表 和 当前城市列表
-                        citySelectView.bindData(allCitys, null, null);
+                        //绑定数据到视图 需要 所有城市列表（必传） 热门城市列表（选填） 和 当前城市列表（选填）
+                        if (type == 0) {
+                            citySelectView.bindData(allCitys, hotCitys, currentCity);
+                        } else if (type == 1) {
+                            citySelectView.bindData(allCitys, hotCitys, null);
+                        } else if (type == 2) {
+                            citySelectView.bindData(allCitys, null, currentCity);
+                        } else {
+                            citySelectView.bindData(allCitys, null, null);
+                        }
                     }
                 });
             }

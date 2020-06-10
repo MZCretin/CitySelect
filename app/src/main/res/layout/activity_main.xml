@@ -10,15 +10,48 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_select_city"
+        android:background="@drawable/shape_hot_bg"
+        android:id="@+id/tv_select_city_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:padding="16dp"
-        android:text="去选择城市" />
+        android:text="带热门城市和当前定位城市" />
 
     <TextView
+        android:background="@drawable/shape_hot_bg"
+        android:id="@+id/tv_select_city_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:text="带热门城市" />
+
+    <TextView
+        android:background="@drawable/shape_hot_bg"
+        android:id="@+id/tv_select_city_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:text="带当前定位城市" />
+
+    <TextView
+        android:background="@drawable/shape_hot_bg"
+        android:id="@+id/tv_select_city_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:text="仅城市列表" />
+
+
+    <TextView
+        android:text="您还未选择城市"
         android:id="@+id/city_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

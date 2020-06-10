@@ -18,10 +18,38 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //获取城市
-        findViewById(R.id.tv_select_city).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_select_city_01).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SelfSelectCityActivity.class);
+                intent.putExtra("type", 0);
+                startActivityForResult(intent, requestCode);
+            }
+        });
+
+        findViewById(R.id.tv_select_city_02).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SelfSelectCityActivity.class);
+                intent.putExtra("type", 1);
+                startActivityForResult(intent, requestCode);
+            }
+        });
+
+        findViewById(R.id.tv_select_city_03).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SelfSelectCityActivity.class);
+                intent.putExtra("type", 2);
+                startActivityForResult(intent, requestCode);
+            }
+        });
+
+        findViewById(R.id.tv_select_city_04).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SelfSelectCityActivity.class);
+                intent.putExtra("type", 3);
                 startActivityForResult(intent, requestCode);
             }
         });

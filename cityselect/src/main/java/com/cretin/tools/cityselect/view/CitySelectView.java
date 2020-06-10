@@ -215,6 +215,11 @@ public class CitySelectView extends ConstraintLayout {
         });
     }
 
+    //设置搜索输入框的提示文案
+    public void setSearchTips(String tips) {
+        edSearch.setHint(tips);
+    }
+
     /**
      * 给View绑定数据
      *
@@ -240,13 +245,12 @@ public class CitySelectView extends ConstraintLayout {
                 }
             });
 
-            List<CityInfoModel> hotList = new ArrayList<>();
-            if (hotCity != null)
+            if (hotCity != null) {
+                List<CityInfoModel> hotList = new ArrayList<>();
                 for (CityModel cityModel : hotCity) {
                     hotList.add(new CityInfoModel(0, cityModel.getCityName(), "", "", cityModel.getExtra()));
                 }
 
-            if (hotCity != null) {
                 mainAdapter.bindHotCity(hotList);
                 cacheList.add(0, new CityInfoModel(CityInfoModel.TYPE_HOT, "", "#", "热门城市", "hot"));
             }
